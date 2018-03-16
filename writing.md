@@ -7,7 +7,8 @@
 * One paragraph, one idea/topic
 * Our goal is not to be published, our goal is to be read
 * Never reuse old text, especially abstracts
-* Use active voice (**S**ubject, **V**erb, **O**bject)
+* Use active voice
+* **S**ubject, **V**erb, **O**bject
 * Find strong subjects for your sentences
 * Start sentences and paragraphs from the known and end on the new stuff
 * Find a strong ending/statement for a paragraph
