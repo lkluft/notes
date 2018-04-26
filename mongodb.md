@@ -25,8 +25,8 @@ When using MongoDB on a (multi-user) cluster authentication has to be enabled.
      }
    )
    ```
-   https://docs.mongodb.com/manual/tutorial/enable-authentication/
-   https://docs.mongodb.com/manual/reference/built-in-roles/
+* https://docs.mongodb.com/manual/tutorial/enable-authentication/
+* https://docs.mongodb.com/manual/reference/built-in-roles/
 
 ## PyMongo
 PyMongo is a Python package containing tools for working with MongoDB.
