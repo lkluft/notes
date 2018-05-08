@@ -36,6 +36,7 @@ bash-completion
 cmake
 coreutils
 git +svn
+gnupg2
 gsed
 gtime
 tmux
