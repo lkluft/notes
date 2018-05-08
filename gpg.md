@@ -16,3 +16,14 @@
    ```
 
    You may have to specify a real name, key id or email.
+
+# Signing git commits using GPG
+
+1. Add the GPG key to your GitHub account.
+   _Note: The email used for the GPG key has to match your GitHub email._
+
+2. To sign all commits by default in any repository on your computer, run:
+
+    ```bash
+    $ git config --global commit.gpgsign true
+    ```
