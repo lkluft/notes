@@ -26,7 +26,7 @@ When using MongoDB on a (multi-user) cluster authentication has to be enabled.
    )
    ```
 
-4. Stop the original mongodb server (`Ctrl-D`).
+4. Stop the original mongodb server (`Ctrl-C`).
 
 5. Restart the mongodb server with enabled authentication:
    ```bash
@@ -57,7 +57,7 @@ collection = db.bar # collection
 obj = {
     'name': 'User',
     'email': 'user@domain.de',
-    }
+}
 collection.insert_one(obj)
 
 # Query *one* documents.
