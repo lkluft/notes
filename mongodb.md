@@ -4,12 +4,12 @@ MongoDB is a flexible document database.
 ## Authentication
 When using MongoDB on a (multi-user) cluster authentication has to be enabled.
 
-1. Start mongodb:
+1. Start mongodb server:
    ```bash
    mongod --port 27017 --dbpath /path/to/db
    ```
 
-2. Connect to mongo shell:
+2. Use different terminal to connect to mongo shell:
    ```bash
    mongo --port 27017
    ```
@@ -25,6 +25,14 @@ When using MongoDB on a (multi-user) cluster authentication has to be enabled.
      }
    )
    ```
+
+4. Stop the original mongodb server (`Ctrl-D`).
+
+5. Restart the mongodb server with enabled authentication:
+   ```bash
+   mongod --auth --port 27017 --dbpath /path/to/db
+   ```
+
 * https://docs.mongodb.com/manual/tutorial/enable-authentication/
 * https://docs.mongodb.com/manual/reference/built-in-roles/
 
