@@ -43,4 +43,18 @@ client = MongoClient(
 )
 db = client.foo  # database
 collection = db.bar # collection
+
+
+# Insert an object
+obj = {
+    'name': 'User',
+    'email': 'user@domain.de',
+    }
+collection.insert_one(obj)
+
+# Query *one* documents.
+collection.find_one({'name': 'User'})
+
+# Query *all* documents.
+collection.find({'name': 'User'})
 ```
