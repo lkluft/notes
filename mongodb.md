@@ -34,7 +34,7 @@ When using MongoDB on a (multi-user) cluster authentication has to be enabled.
    ```
 
    Use the `--bind_ip_all` option to listen for connections on all interfaces.
-   **Make sure thath authentication is enabled!**
+   **Make sure that authentication is enabled!**
 
 * https://docs.mongodb.com/manual/tutorial/enable-authentication/
 * https://docs.mongodb.com/manual/reference/built-in-roles/
