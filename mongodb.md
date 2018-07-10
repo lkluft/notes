@@ -33,6 +33,9 @@ When using MongoDB on a (multi-user) cluster authentication has to be enabled.
    mongod --auth --port 27017 --dbpath /path/to/db
    ```
 
+   Use the `--bind_ip_all` option to listen for connections on all interfaces.
+   **Make sure thath authentication is enabled!**
+
 * https://docs.mongodb.com/manual/tutorial/enable-authentication/
 * https://docs.mongodb.com/manual/reference/built-in-roles/
 
