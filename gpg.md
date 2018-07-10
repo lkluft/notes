@@ -6,7 +6,8 @@
    ```
 
    Use the default `RSA and RSA` key and a length of `4096`.
-   *Note: The email used for the GPG key has to match your GitHub email.*
+   
+   **Note: The email used for the GPG key has to match your GitHub email.**
 3. Export the public key:
    ```bash
    gpg --armor --export
@@ -22,6 +23,6 @@
     $ git config --global commit.gpgsign true
     ```
     Make sure that `git` associates your commits with the proper email
-    (`git config --global user.email EMAIL`). The email is used to determine
+    (`git config --global user.email`). The email is used to determine
     which GPG key to use.
 * https://help.github.com/articles/signing-commits-using-gpg/
