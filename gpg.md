@@ -23,6 +23,14 @@ $ gpg --export-secret-key --armor KEY | ssh REMOTE_HOST 'gpg --import --allow-se
 ```
 * https://blog.tomecek.net/post/import-export-private-gpg-key/
 
+## GPG agent on remote machine
+On remote machines (e.g. `mistral.dkrz.de`) it may be necessary to start the
+GPG agent on the standard socket explicitly. Otherwise prompting for the
+password does not work:
+```bash
+gpg-agent --daemon --use-standard-socket
+```
+
 # Signing git commits using GPG
 1. Add the GPG key to your GitHub account.
 2. To sign all commits by default in any repository on your computer, run:
