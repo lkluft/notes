@@ -6,7 +6,7 @@
    ```
 
    Use the default `RSA and RSA` key and a length of `4096`.
-   
+
    **Note: The email used for the GPG key has to match your GitHub email.**
 3. Export the public key:
    ```bash
@@ -15,6 +15,13 @@
 
    _You may have to specify a real name, key id or email._
 * https://help.github.com/articles/generating-a-new-gpg-key/
+
+## Copy GPG key to a new machine
+```bash
+$ gpg --export --armor KEY | ssh REMOTE_HOST 'gpg --import'
+$ gpg --export-secret-key --armor KEY | ssh REMOTE_HOST 'gpg --import --allow-secret-key-import'
+```
+* https://blog.tomecek.net/post/import-export-private-gpg-key/
 
 # Signing git commits using GPG
 1. Add the GPG key to your GitHub account.
