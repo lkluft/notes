@@ -35,6 +35,7 @@ bash
 bash-completion
 cmake
 coreutils
+gcc8
 git +svn
 gnupg2
 gsed
