@@ -11,3 +11,19 @@
 This note is based on a
 [blog post](https://chris.beams.io/posts/git-commit/#capitalize)
 by Chris Beams.
+
+# Atomic commits
+An “atomic commit" consists of changes related to one task, one logical unit.
+
+## Atomic Approach
+* Commit each fix or task as a separate change
+* Only commit when a block of work is complete
+* Commit each change separately
+
+## Benefits
+* Easy to roll back without affecting other changes
+* Easy to make other changes on the fly
+* Easy to merge features to other branches
+* Supports a structured programming workflow
+
+Further read: https://www.freshconsulting.com/atomic-commits/
