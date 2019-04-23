@@ -1,5 +1,5 @@
 # Where to find fonts?
-You can use [Google Fonts](https://github.com/google/fonts) to find and
+You can use [Google Fonts](https://fonts.google.com/) to find and
 download various open source fonts. It is even possible to download their whole
 archive (https://github.com/google/fonts/tarball/master).
 
