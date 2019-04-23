@@ -1,7 +1,13 @@
+# Where to find fonts?
+You can use [Google Fonts](https://github.com/google/fonts) to find and
+download various open source fonts. It is even possible to download their whole
+archive (https://github.com/google/fonts/tarball/master).
+
 # How to install TrueType fonts
 The following approach should work on most operating systems.
 
-1. Move TrueType fonts (TTF) to the user's font directory
+1. Move TrueType fonts (TTF) to the user's font directory.
+   (It is possible to keep them in subdirectories for tidiness.)
    ```bash
    cp *.ttf ~/.local/share/fonts
     ```
