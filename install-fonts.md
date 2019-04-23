@@ -11,7 +11,7 @@ The following approach should work on most operating systems.
    fc-cache -fv
     ```
 
-3. (__Optional__) Remove the ``matplotlib`` font cache
+3. (_Optional_) Remove the ``matplotlib`` font cache
    ```bash
    rm ~/.cache/matplotlib/fontList.json  # Linux
    rm ~/.matplotlib/fontlist-v300.json  # osx
